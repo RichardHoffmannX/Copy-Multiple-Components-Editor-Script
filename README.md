@@ -2,7 +2,8 @@
 Copy Multiple Components Editor Script in Unity
 
 Save this script as CopyMultipleComponentsEditor.cs inside your Editor folder.
-"""
+
+```
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
@@ -92,4 +93,4 @@ public class CopyMultipleComponentsEditor : EditorWindow
         Debug.Log($"Pasted {copiedComponents.Count} components to {target.name}");
     }
 }
-"""
+```
